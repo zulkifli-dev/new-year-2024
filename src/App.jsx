@@ -52,7 +52,7 @@ function App() {
         </span>
       </div>
       <div className="App">
-        <CountdownCircleTimer
+{/*         <CountdownCircleTimer
           {...timerProps}
           colors="#00ccff"
           duration={daysDuration}
@@ -63,7 +63,7 @@ function App() {
               {renderTime("days", getTimeDays(daysDuration - elapsedTime))}
             </span>
           )}
-        </CountdownCircleTimer>
+        </CountdownCircleTimer> */}
         <CountdownCircleTimer
           {...timerProps}
           colors="#d333ff"
