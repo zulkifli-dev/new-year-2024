@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.App {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  gap: 12px;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://projects.upanastudio.com/biasamata.com/uploads/gallery/86381420.jpg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  color: white;
+}
+
+.bg span {
+  font-size: 70px;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 200px;
+  font-family: sans-serif;
+}
+
+.time {
+  font-size: 32px;
+}
