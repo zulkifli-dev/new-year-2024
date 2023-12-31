@@ -1,5 +1,4 @@
 import React from 'react'
-import Countdown from 'react-countdown';
 import Particles from 'react-particles'
 import { loadFireworksPreset } from 'tsparticles-preset-fireworks'
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
