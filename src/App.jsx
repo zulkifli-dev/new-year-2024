@@ -45,7 +45,7 @@ function App() {
 
   return (
     <>
-      {<Particles init={particlesInit} options={{ preset: 'fireworks', autoPlay: true }} />}
+      {<Particles init={particlesInit} options={{ preset: 'fireworks', autoPlay: remainingTime < 1}} />}
       <div className='bg'>
         <span>
           TAHUN BARU 2025
