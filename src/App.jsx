@@ -37,7 +37,7 @@ function App() {
 
 
   const startTime = Date.now() / 1000; // Menggunakan UNIX timestamp dalam detik
-  const endTime = new Date('2023-12-31T23:59:59').getTime() / 1000; // Menggunakan UNIX timestamp dalam detik
+  const endTime = new Date('2024-12-31T23:59:59').getTime() / 1000; // Menggunakan UNIX timestamp dalam detik
 
   const remainingTime = endTime - startTime;
   const days = Math.ceil(remainingTime / daySeconds);
@@ -48,7 +48,7 @@ function App() {
       {<Particles init={particlesInit} options={{ preset: 'fireworks', autoPlay: true }} />}
       <div className='bg'>
         <span>
-          TAHUN BARU 2024
+          TAHUN BARU 2025
         </span>
       </div>
       <div className="App">
